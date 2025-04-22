@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12162027123",
+    "project_id": "screendisplay-872e9",
+    "storage_bucket": "screendisplay-872e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12162027123:android:33cdba0385699212cd2406",
+        "android_client_info": {
+          "package_name": "com.example.screendisplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8F-1GOXDVuhy_I54Y7OjwqiA-w_De2po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
