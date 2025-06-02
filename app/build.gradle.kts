@@ -47,13 +47,18 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-//    implementation platform("com.google.firebase:firebase-bom:32.1.0")
-//    implementation(com.google.firebase:firebase-auth-ktx)
-//    implementation(com.google.firebase:firebase-firestore-ktx)
-//    apply plugin(com.google.gms.google-services)
 
+    // Redundant but fine if you use them directly
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
+    // ✅ ExoPlayer dependencies
+    implementation("androidx.media3:media3-exoplayer:1.3.1")
+    implementation("androidx.media3:media3-ui:1.3.1")
 }

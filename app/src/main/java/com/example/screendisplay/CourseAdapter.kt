@@ -24,6 +24,12 @@ class CourseAdapter(
                 }
             }
         }
+        val liveIcon = itemView.findViewById<ImageView>(R.id.liveIcon)
+        liveIcon.setOnClickListener {
+            Toast.makeText(context, "Join Live Stream with Lecturer", Toast.LENGTH_SHORT).show()
+            // You can open a LiveStreamActivity or show a dialog if needed
+        }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CourseViewHolder {
